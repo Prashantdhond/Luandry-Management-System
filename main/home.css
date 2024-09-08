@@ -3,6 +3,9 @@
 }
 #navigation{
 border: 20px;
+    margin-top: 0px;
+    padding: 0;
+border: 30px;
 border-color: black;
 background-color: gray;
 height: 65px;
@@ -13,6 +16,7 @@ text-align: right;
 }
 .nav{
     font-size:large;
+    font-size:20px;
     color: #000;
    text-decoration: none;
    margin: 5px ;
@@ -24,6 +28,12 @@ text-align: right;
    display: flex;
    flex-direction: row;
 }
+.nav:hover{
+    color : skyblue;
+    transition-duration: 0.1s;
+    transition-property: all;
+    transition-timing-function: steps(1);
+  }
 #container1{
 height: 700px;
 width: 100%; 
