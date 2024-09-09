@@ -1,0 +1,205 @@
+#heronav {
+    position: fixed;
+    width: 100%;
+    background-color: gray;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: gray;
+}
+
+.logo {
+    height: 50px;
+    margin: 8px;
+    border-radius: 20px;
+}
+
+#nav2 {
+    display: flex;
+}
+
+.nav {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    margin: 5px;
+    padding: 7px;
+    background-color: gray;
+}
+
+.nav:hover {
+    color: skyblue;
+    transition: 0.1s ease;
+}
+
+#Services {
+    background-color: skyblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.slot {
+    margin: 20px;
+    width: 30%;
+}
+
+#logocontainer img {
+    max-width: 100%;
+    height: auto;
+}
+
+#link {
+    height: 30px;
+    background-color: #fff;
+}
+@media screen and (max-width: 768px) {
+    #scontainer2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .smin {
+        width: 90%;
+    }
+
+    #nav2 {
+        flex-direction: column;
+    }
+
+    .nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    #Services {
+        flex-direction: column;
+    }
+
+    .slot {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 480px) {
+    #navigation {
+        flex-direction: column;
+    }
+
+    .logo {
+        height: 40px;
+    }
+
+    .nav {
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    #scontainer {
+        height: 200px;
+    }
+
+    .smin {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #Services {
+        flex-direction: column;
+    }
+
+    .slot {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+#logocontainer {
+    margin: 10px;
+    background-color: skyblue;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+#slot2 h2 {
+    text-size-adjust: large;
+    margin: 20px;
+    text-align: left;
+    line-height: 30px;
+}
+
+#scontainer {
+    height: 350px;
+    width: auto;
+    background-color: skyblue;
+    background-image: url(/images/—Pngtree—washing\ machines\ view_15576270.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#scontainer1 {
+    height: 2000px;
+    width: 100%;
+}
+
+#scontainer2 {
+    margin: 20px;
+    padding: 10px;
+    height: 1000px;
+    width: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.smin {
+    margin: 10px;
+    height: 400px;
+    width: 300px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+
+.one, .one1, .one2, .one3, .one4, .one5, .one6, .one7 {
+    margin: 20px;
+    height: 40%;
+    width: auto;
+    background-size: cover;
+}
+.one{
+    background-image: url(/images/service-1.jpg);
+}
+.one1{
+    background-image: url(/images/service-2.jpg);
+}
+.one2{
+    background-image: url(/images/services3-1-750x507.jpg);
+}
+.one3{
+    background-image: url(/images/services4-750x507.jpg);
+}
+.one4{
+    background-image: url(/images/services5.jpg);
+}
+.one5{
+    background-image: url(/images/services6.jpg);
+}
+.one6{
+    background-image: url(/images/services1-1-750x507.jpg);
+}
+.one7{
+    background-image: url(/images/service-7.jpg);
+}
+
+.two, .two1, .two2, .two3, .two4, .two5, .two6, .two7 {
+    margin-top: 175px;
+    height: 125%;
+    width: auto;
+}

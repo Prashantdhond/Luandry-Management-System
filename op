@@ -36,3 +36,66 @@
               <a id="Home" class="nav" href="#"></a>
               <a id="Home" class="nav" href="#"></a>
               <a id="Home" class="nav" href="#"></a>
+
+
+
+
+
+
+
+
+              background-image: url(/images/service-1.jpg);
+              background-image: url(/images/service-2.jpg);
+              background-image: url(/images/services3-1-750x507.jpg);
+              background-image: url(/images/services4-750x507.jpg);
+              background-image: url(/images/services5.jpg);
+              background-image: url(/images/services6.jpg);
+              background-image: url(/images/services1-1-750x507.jpg);
+              background-image: url(/images/service-7.jpg);
+
+
+
+
+
+
+
+
+
+              navigation
+              /* Basic styling for navigation and layout */
+#heronav {
+    position: fixed;
+    width: 100%;
+    background-color: gray;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    height: 50px;
+    margin: 8px;
+    border-radius: 20px;
+}
+
+#nav2 {
+    display: flex;
+}
+
+.nav {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    margin: 5px;
+    padding: 7px;
+    background-color: gray;
+}
+
+.nav:hover {
+    color: skyblue;
+    transition: 0.1s ease;
+}

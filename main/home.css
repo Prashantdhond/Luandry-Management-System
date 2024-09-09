@@ -1,39 +1,39 @@
-#heronav{
+#heronav {
     position: fixed;
+    width: 100%;
+    background-color: gray;
 }
-#navigation{
-border: 20px;
-    margin-top: 0px;
-    padding: 0;
-border: 30px;
-border-color: black;
-background-color: gray;
-height: 65px;
-width: 500%;
-display: flex;
-flex-direction: row;
-text-align: right;
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
 }
-.nav{
-    font-size:large;
-    font-size:20px;
+
+.logo {
+    height: 50px;
+    margin: 8px;
+    border-radius: 20px;
+}
+
+#nav2 {
+    display: flex;
+}
+
+.nav {
+    font-size: 20px;
     color: #000;
-   text-decoration: none;
-   margin: 5px ;
-   padding: 7px;
-   text-align: center;
-   height: 20px;
-   width: 100px;
-   background-color:gray;
-   display: flex;
-   flex-direction: row;
+    text-decoration: none;
+    margin: 5px;
+    padding: 7px;
+    background-color: gray;
 }
-.nav:hover{
-    color : skyblue;
-    transition-duration: 0.1s;
-    transition-property: all;
-    transition-timing-function: steps(1);
-  }
+
+.nav:hover {
+    color: skyblue;
+    transition: 0.1s ease;
+}
 #container1{
 height: 700px;
 width: 100%; 
@@ -52,6 +52,7 @@ background-position: center;
 z-index: 1;
 display: flex;
 flex-direction: row;
+flex-wrap: wrap;
 }
 .c1{
     height: 500px;
